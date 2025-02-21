@@ -1,3 +1,5 @@
+import "./Layout.css";
+
 function Layout() {
   return (
     <>
@@ -22,8 +24,13 @@ function Layout() {
             }}
           ></div>
           <div className="col-lg-4" style={{ textAlign: "center" }}>
-            <h5 style={{ letterSpacing: "0.7rem", textTransform: "uppercase" }}>
-              Glance Of Life
+            <h5
+              style={{
+                letterSpacing: "0.7rem",
+                textTransform: "uppercase",
+              }}
+            >
+              <a href="/">Glance Of Life</a>
             </h5>
             <i>A simple introduction of me to the world.</i>
           </div>

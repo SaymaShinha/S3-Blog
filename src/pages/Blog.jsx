@@ -1,21 +1,19 @@
-//import data from "../data.json";
-
-const posts = [
-  { published_date: "date", title: "title", content: "content" },
-  { published_date: "date", title: "title", content: "content" },
-];
+import data from "../data.json";
+import "./Blog.css";
 
 const Post = () => {
-  posts.map((item) => {
-    <div className="post">
-      <div>
-        <h6>{item.published_date}</h6>
-        <h4>{item.title}</h4>
-        <p className="content">{item.content}</p>
-        <a href="blog">read more</a>
-      </div>
-    </div>;
-  });
+  const posts = data.map((item) => (
+    <div className="post" key={item.id}>
+      <h6>{item.published_date}</h6>
+      <h4>{item.title}</h4>
+      <p className="content">{item.content}</p>
+      <a href={`singlepost/${item.id}`} style={{ float: "right" }}>
+        read more
+      </a>
+    </div>
+  ));
+
+  return <div>{posts}</div>;
 };
 
 const Blog = () => {

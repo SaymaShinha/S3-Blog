@@ -1,0 +1,11 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  color: #3e4245;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  float: "left";
+}

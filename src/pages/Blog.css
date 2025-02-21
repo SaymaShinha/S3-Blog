@@ -1,0 +1,48 @@
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+}
+
+.card {
+  background-color: #f7f9fd !important;
+  float: right;
+  max-height: 240px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(10, 9, 9);
+  color: white;
+  text-align: center;
+}
+
+.row {
+  margin: 4rem 0;
+}
+
+@media screen and (min-width: 400px) {
+  .post {
+    padding-top: 4rem;
+  }
+  .card {
+    padding: 1.5rem;
+    margin-top: 4rem !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .post {
+    padding: 2rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}

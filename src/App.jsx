@@ -1,6 +1,4 @@
 import "./App.css";
-import "./scss/styles.scss";
-import "./static/css/styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "./pages/Blog.jsx";
 import Layout from "./pages/Layout.jsx";
@@ -19,7 +17,7 @@ function App() {
           <Route>
             <Route path="/" element={<Home />} />
             <Route path="blog" element={<Blog />} />
-            <Route path="singlepost/:id" element={<SinglePost />} />
+            <Route path="post/:id" element={<SinglePost />} />
             <Route path="quote" element={<Quote />} />
             <Route path="contact" element={<Contact />} />
           </Route>

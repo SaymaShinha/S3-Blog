@@ -10,11 +10,11 @@ const SinglePost = () => {
   }
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center", marginBottom: "10rem" }}>
       <i>{post.category}</i>
       <p>{post.published_date}</p>
       <img
-        src={`/src/static/img/${post.image}`}
+        src={`./images/${post.image}`}
         alt={post.title}
         style={{ height: "8rem" }}
       />

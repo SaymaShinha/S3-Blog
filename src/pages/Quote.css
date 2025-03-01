@@ -1,0 +1,16 @@
+.quotes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 6rem 0 10rem 0;
+}
+
+.quotes > div {
+  background-color: antiquewhite;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin: 1rem;
+  font-size: medium;
+  border-radius: 0.5rem;
+}

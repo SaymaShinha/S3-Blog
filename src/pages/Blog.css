@@ -2,7 +2,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   white-space: nowrap;
 }
@@ -15,6 +14,10 @@
 
 .row {
   margin: 4rem 0;
+}
+
+.posts {
+  margin-bottom: 10rem;
 }
 
 @media screen and (min-width: 400px) {

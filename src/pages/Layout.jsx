@@ -5,7 +5,7 @@ function Layout() {
     <>
       <div style={{ textAlign: "center" }}>
         <img
-          src="/src/static/img/pexels-photo-6373293.webp"
+          src="./images/pexels-photo-6373293.webp"
           style={{
             marginTop: "0rem",
             width: "6.5rem",

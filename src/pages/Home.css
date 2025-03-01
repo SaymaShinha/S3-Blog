@@ -1,22 +1,23 @@
 .home-start {
   background-color: #f7f9fd;
   max-width: 100%;
-  height: 400px;
+  margin-bottom: 10rem;
 }
 
 .home-start > div > p {
   padding: 3rem;
-  text-align: center;
-  vertical-align: middle;
+  margin-top: 15%;
 }
 
 .home-start > div > a > button {
   float: right;
 }
 .home-img {
-  height: 400px;
   float: right;
-  width: -webkit-fill-available;
+  width: 50%;
+}
+
+.home-img::after {
   content: "";
   clear: both;
   display: table;

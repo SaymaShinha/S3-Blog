@@ -16,7 +16,7 @@ function Home() {
           </a>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6">
-          <img className="home-img" src="/src/static/img/home.jpeg" />
+          <img className="home-img" src="./images/home.jpeg" />
         </div>
       </div>
     </div>

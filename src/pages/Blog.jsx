@@ -7,13 +7,13 @@ const Post = () => {
       <h6>{item.published_date}</h6>
       <h4>{item.title}</h4>
       <p className="content">{item.content}</p>
-      <a href={`singlepost/${item.id}`} style={{ float: "right" }}>
+      <a href={`post/${item.id}`} style={{ float: "right" }}>
         read more
       </a>
     </div>
   ));
 
-  return <div>{posts}</div>;
+  return <div className="posts">{posts}</div>;
 };
 
 const Blog = () => {

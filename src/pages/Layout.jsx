@@ -5,13 +5,14 @@ function Layout() {
     <>
       <div style={{ textAlign: "center" }}>
         <img
-          src="./images/pexels-photo-6373293.webp"
+          src="/images/pexels-photo-6373293.webp"
           style={{
             marginTop: "0rem",
             width: "6.5rem",
             height: "4rem",
             alignContent: "center",
           }}
+          alt="layout-image"
         />
       </div>
       <div className="container" style={{ marginTop: "1rem" }}>

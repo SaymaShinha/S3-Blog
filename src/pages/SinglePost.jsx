@@ -14,9 +14,9 @@ const SinglePost = () => {
       <i>{post.category}</i>
       <p>{post.published_date}</p>
       <img
-        src={`./images/${post.image}`}
+        src={`/images/${post.image}`}
         alt={post.title}
-        style={{ height: "8rem" }}
+        style={{ height: "20rem" }}
       />
       <h1>{post.title}</h1>
       <pre

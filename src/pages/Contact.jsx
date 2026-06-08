@@ -19,10 +19,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        "service_gmwe3mp",
-        "template_bu3f5jg",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        "vlyWoopTRWGIv2fMK"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         (result) => {
@@ -31,7 +31,7 @@ const ContactForm = () => {
         },
         (error) => {
           alert("Failed to send message, please try again later.");
-        }
+        },
       );
   };
 
